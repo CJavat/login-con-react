@@ -7,10 +7,11 @@
     align-items: center;
 }
 
-.imagen-perfil {
-    width: 100px;
-}
-
 .titulo {
     font-size: 2rem;
+    text-align: start;
+    width: 100%;
+    padding-left: 25px;
+    font-weight: bold;
+    color: #fff;
 }
