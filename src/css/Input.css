@@ -8,10 +8,7 @@
     height: 35px;
     background-color: transparent;
     margin: 1rem 0;
-}
-
-.contenedor:focus {
-    background-color: red;
+    position: relative;
 }
 
 .icon-img {
@@ -35,4 +32,23 @@
 input::placeholder {
     color: #bbb;
     font-size: 0.95rem;
+}
+
+.icon-eye {
+    position: absolute;
+    right: 10px;
+    width: 1rem;
+    height: 1rem;
+    filter: invert(60%);
+    cursor: pointer;
+}
+
+.checkbox {
+    cursor: pointer; 
+    border: 5px solid #bbb;
+}
+
+.label {
+    color: #bbb;
+    user-select: none;
 }

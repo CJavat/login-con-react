@@ -1,0 +1,21 @@
+.link {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #000;
+    background-color: #ee3a57;
+    border-radius: 15px;
+    margin: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.boton {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
